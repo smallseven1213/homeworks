@@ -9,7 +9,7 @@ interface LikeOrDislikeButtonsProps {
 
 const LikeOrDislikeButtons: React.FC<LikeOrDislikeButtonsProps> = ({
   likeCount = 100,
-  dislikeCount = 20,
+  dislikeCount = 25,
 }) => {
   const [userReaction, setUserReaction] = useState<'like' | 'dislike' | null>(null);
 

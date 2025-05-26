@@ -10,7 +10,7 @@ const LikeButton: React.FC<LikeButtonProps> = props => {
       label="Like"
       buttonClassName="like-button"
       activeButtonClassName="liked"
-      counterClassName="like-counter"
+      counterClassName="likes-counter"
       {...props}
     />
   );

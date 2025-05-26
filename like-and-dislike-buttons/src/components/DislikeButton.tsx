@@ -10,7 +10,7 @@ const DislikeButton: React.FC<DislikeButtonProps> = props => {
       label="Dislike"
       buttonClassName="dislike-button"
       activeButtonClassName="disliked"
-      counterClassName="dislike-counter"
+      counterClassName="dislikes-counter"
       {...props}
     />
   );
