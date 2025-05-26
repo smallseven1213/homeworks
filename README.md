@@ -11,6 +11,7 @@
 
 要使用 pnpm install && pnpm dev
 
+- spec 沒提到 inputs 會有 default 值，因此沒做；也沒檢查 max 值，可輸入大於 60 秒，將會自動換算。
 - 將 setInterval 所在最小 component 中，避免外界不必要 rerender
 - 特別加入現實環境時間 timestamp 做標記，防止 timer 被 idle 住時的 delay，應該誤差是小於 1000ms
 
